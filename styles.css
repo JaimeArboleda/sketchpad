@@ -1,0 +1,27 @@
+.canvas {
+    width: 95vw;
+    height: 90vh;
+    border: 5px solid black;
+    display: grid;
+    gap: 1px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+}
+
+input:disabled {
+  background: #dddddd;
+}
+
+.button {
+    width: 10px;
+}
